@@ -137,6 +137,7 @@ a {
   padding-left: 0;
   color: var(--color-headings);
   font-weight: 500; /* I added this part*/
+  letter-spacing: 1px; /* added I think */
 }
 
 .list--inline .list__item {
@@ -365,4 +366,22 @@ a {
   .plan__billing-cycle {
     font-size: 1.6rem;
   }
+}
+
+/* Media */
+
+.media {
+  display: flex;
+}
+
+.media__title {
+  margin-top: 0;
+}
+
+.media__body {
+  margin: 0 2rem;
+}
+
+.media__image {
+  margin-top: 1rem;
 }
